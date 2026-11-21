@@ -1,0 +1,13 @@
+{
+  "students": 200000,
+  "video_size_range_MB": [
+    300,
+    2000
+  ],
+  "assumed_average_video_GB": 1.0,
+  "first_week_viewer_fraction": 0.25,
+  "peak_fraction_of_first_week_viewers": 0.1,
+  "bitrate_Mbps": 4,
+  "local_cache_hit_ratio": 0.85,
+  "cdn_edge_hit_ratio": 0.9
+}

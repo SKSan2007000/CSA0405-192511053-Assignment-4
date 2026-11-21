@@ -1,0 +1,6 @@
+Boundary test review:
+- Requested contiguous size <= 0: rejected with -1.
+- Requested contiguous size > 32 blocks: rejected with -1.
+- First-fit contiguous request: returns first run start when enough adjacent blocks exist.
+- Indexed allocation: requires one index block plus requested data blocks; returns -1 if insufficient free blocks.
+- Release: frees all data blocks carrying the file letter.

@@ -1,0 +1,6 @@
+Boundary and sensitivity tests:
+- At 300 MB average video size, logical capacity = 58.59 TiB (200,000 × 0.3 GB, using decimal GB approximation).
+- At 2 GB average video size, logical capacity = 390.63 TiB (200,000 × 2 GB, using binary TiB conversion).
+- At 8 Mbps and 5,000 concurrent streams, payload throughput doubles to 40 Gbps.
+- At 10,000 concurrent streams and 4 Mbps, payload throughput is 40 Gbps.
+- If cache hit ratio falls from 85% to 60%, HDD/origin request fraction increases from 15% to 40%; cache sizing and warm-up become more important.

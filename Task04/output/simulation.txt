@@ -1,0 +1,29 @@
+Seed: 20261121 | cylinders: 0-199 | initial head: 53
+Model: static queue; 1 ms per cylinder; waiting = cumulative seek completion time
+
+LIGHT LOAD
+Algorithm   Total seek   Avg wait ms   Max wait ms
+FCFS              5450       2751.44       5450.00
+SSTF               339        130.84        339.00
+SCAN               249        130.23        249.00
+C-SCAN             395        148.95        395.00
+LOOK               249        131.00        249.00
+C-LOOK             389        145.40        389.00
+
+MEDIUM LOAD
+Algorithm   Total seek   Avg wait ms   Max wait ms
+FCFS             62760      32138.23      62760.00
+SSTF               252        140.01        252.00
+SCAN               252        140.35        252.00
+C-SCAN             397        146.01        397.00
+LOOK               252        140.44        252.00
+C-LOOK             397        145.81        397.00
+
+HEAVY LOAD
+Algorithm   Total seek   Avg wait ms   Max wait ms
+FCFS            656544     326647.18     656544.00
+SSTF               252        137.73        252.00
+SCAN               252        138.32        252.00
+C-SCAN             397        150.41        397.00
+LOOK               252        138.33        252.00
+C-LOOK             397        150.39        397.00

@@ -1,0 +1,116 @@
+{
+  "light": {
+    "FCFS": {
+      "requests": 100,
+      "total_seek_cylinders": 5450,
+      "average_completion_wait_ms": 2751.44,
+      "maximum_completion_wait_ms": 5450
+    },
+    "SSTF": {
+      "requests": 100,
+      "total_seek_cylinders": 339,
+      "average_completion_wait_ms": 130.84,
+      "maximum_completion_wait_ms": 339
+    },
+    "SCAN": {
+      "requests": 100,
+      "total_seek_cylinders": 249,
+      "average_completion_wait_ms": 130.23,
+      "maximum_completion_wait_ms": 249
+    },
+    "C-SCAN": {
+      "requests": 100,
+      "total_seek_cylinders": 395,
+      "average_completion_wait_ms": 148.95,
+      "maximum_completion_wait_ms": 395
+    },
+    "LOOK": {
+      "requests": 100,
+      "total_seek_cylinders": 249,
+      "average_completion_wait_ms": 131,
+      "maximum_completion_wait_ms": 249
+    },
+    "C-LOOK": {
+      "requests": 100,
+      "total_seek_cylinders": 389,
+      "average_completion_wait_ms": 145.4,
+      "maximum_completion_wait_ms": 389
+    }
+  },
+  "medium": {
+    "FCFS": {
+      "requests": 1000,
+      "total_seek_cylinders": 62760,
+      "average_completion_wait_ms": 32138.23,
+      "maximum_completion_wait_ms": 62760
+    },
+    "SSTF": {
+      "requests": 1000,
+      "total_seek_cylinders": 252,
+      "average_completion_wait_ms": 140.01,
+      "maximum_completion_wait_ms": 252
+    },
+    "SCAN": {
+      "requests": 1000,
+      "total_seek_cylinders": 252,
+      "average_completion_wait_ms": 140.35,
+      "maximum_completion_wait_ms": 252
+    },
+    "C-SCAN": {
+      "requests": 1000,
+      "total_seek_cylinders": 397,
+      "average_completion_wait_ms": 146.01,
+      "maximum_completion_wait_ms": 397
+    },
+    "LOOK": {
+      "requests": 1000,
+      "total_seek_cylinders": 252,
+      "average_completion_wait_ms": 140.44,
+      "maximum_completion_wait_ms": 252
+    },
+    "C-LOOK": {
+      "requests": 1000,
+      "total_seek_cylinders": 397,
+      "average_completion_wait_ms": 145.81,
+      "maximum_completion_wait_ms": 397
+    }
+  },
+  "heavy": {
+    "FCFS": {
+      "requests": 10000,
+      "total_seek_cylinders": 656544,
+      "average_completion_wait_ms": 326647.18,
+      "maximum_completion_wait_ms": 656544
+    },
+    "SSTF": {
+      "requests": 10000,
+      "total_seek_cylinders": 252,
+      "average_completion_wait_ms": 137.73,
+      "maximum_completion_wait_ms": 252
+    },
+    "SCAN": {
+      "requests": 10000,
+      "total_seek_cylinders": 252,
+      "average_completion_wait_ms": 138.32,
+      "maximum_completion_wait_ms": 252
+    },
+    "C-SCAN": {
+      "requests": 10000,
+      "total_seek_cylinders": 397,
+      "average_completion_wait_ms": 150.41,
+      "maximum_completion_wait_ms": 397
+    },
+    "LOOK": {
+      "requests": 10000,
+      "total_seek_cylinders": 252,
+      "average_completion_wait_ms": 138.33,
+      "maximum_completion_wait_ms": 252
+    },
+    "C-LOOK": {
+      "requests": 10000,
+      "total_seek_cylinders": 397,
+      "average_completion_wait_ms": 150.39,
+      "maximum_completion_wait_ms": 397
+    }
+  }
+}

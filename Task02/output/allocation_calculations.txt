@@ -1,0 +1,8 @@
+4 GiB file / 4 KiB blocks = 1,048,576 data blocks
+Reach last block: contiguous=1 data read; linked=1,048,576 block reads (follow chain); single index block cannot address this file
+Multi-level inode: with 12 direct + single/double/triple indirect, cached inode, triple-indirect lookup needs up to 4 reads (3 index blocks + data block)
+Pointers per 4 KiB index block: 1024
+Maximum inode blocks: 12 + 1024 + 1,048,576 + 1,073,741,824 = 1,074,791,436
+Maximum inode capacity: 4,402,345,721,856 bytes = 4.003910 TiB
+4 TiB disk blocks: 1,073,741,824; 1-bit bitmap: 1,073,741,824 bits = 134,217,728 bytes = 128.00 MiB
+FAT at 4 bytes per block entry: 4,294,967,296 bytes = 4.00 GiB RAM

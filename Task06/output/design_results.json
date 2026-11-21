@@ -1,0 +1,40 @@
+{
+  "assumptions": {
+    "students": 200000,
+    "average_video_GB": 1.0,
+    "first_week_viewers_fraction": 0.25,
+    "peak_fraction_of_first_week_viewers": 0.1,
+    "bitrate_Mbps": 4.0,
+    "local_cache_hit_ratio": 0.85,
+    "cdn_cache_hit_ratio": 0.9
+  },
+  "capacity": {
+    "logical_TB": 195.31,
+    "local_three_replica_raw_TB": 585.94
+  },
+  "peak": {
+    "concurrent_streams": 5000,
+    "aggregate_Gbps": 20.0
+  },
+  "startup": {
+    "startup_chunk_MiB": 8,
+    "block_size_KiB": 4,
+    "data_block_reads": 2048,
+    "indexed_metadata_reads_assumed": 1,
+    "total_reads_if_cold": 2049
+  },
+  "alternatives": {
+    "local_hybrid": {
+      "hdd_request_fraction": 0.15,
+      "cache_hit_ratio": 0.85,
+      "simulated_startup_latency_ms_mean": 4.09,
+      "simulated_startup_latency_ms_p95": 12.66
+    },
+    "cloud_cdn": {
+      "origin_request_fraction": 0.1,
+      "edge_hit_ratio": 0.9,
+      "simulated_startup_latency_ms_mean": 16.16,
+      "simulated_startup_latency_ms_p95": 56.58
+    }
+  }
+}

@@ -1,0 +1,8 @@
+Disk capacity: 4,398,046,511,104 bytes (4 TiB)
+Block size: 4,096 bytes (4 KiB)
+Number of blocks: 1,073,741,824
+Bit vector: 1,073,741,824 bits = 134,217,728 bytes = 128.00 MiB
+
+Replication illustration for 100 TiB logical data:
+1 replica: 100 TiB raw; 3 replicas: 300 TiB raw (before metadata/reserve)
+If one replica fails, two remaining copies can serve reads while repair recreates redundancy.

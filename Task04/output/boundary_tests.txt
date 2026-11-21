@@ -1,0 +1,5 @@
+Boundary test review:
+- Head at 0 or 199: distance calculations remain within disk range.
+- Duplicate request cylinders: each request is served as a separate queue entry.
+- Empty queue: scheduling order is empty and total movement is zero (simulation functions).
+- SSTF ties: deterministic first-in-queue tie break is used.

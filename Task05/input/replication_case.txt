@@ -1,0 +1,2 @@
+Logical data: 100 TiB
+Compare one copy with three replicas.
